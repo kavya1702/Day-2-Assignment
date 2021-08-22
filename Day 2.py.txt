@@ -1,0 +1,6 @@
+st=input("Enter a string:")
+li=[]
+for i in st:
+    if i not in li:
+       li.append(i)
+       print(ch,st.count(i))
